@@ -61,7 +61,7 @@ class PendaftaranController extends Controller
 
     public function step2()
     {
-        if (isset(auth()->user()->pendaftaran->alt4_p2)) {
+        if (isset(auth()->user()->pendaftaran->p2)) {
             return redirect()->intended('/mahasiswa/pendaftaran-ta-2/status');
         } else {
             $pendaftaran = auth()->user()->pendaftaran;
