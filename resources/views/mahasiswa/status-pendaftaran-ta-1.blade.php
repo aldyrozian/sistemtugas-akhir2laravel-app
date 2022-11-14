@@ -32,13 +32,9 @@
         </div>
     </div>
     @if ($status == 'Lolos' || $status == 'Lolos Bersyarat' &&
-<<<<<<< HEAD
     auth()->user()->pendaftaran->p1 == null &&
     auth()->user()->pendaftaran->p2 == null)
     @if(auth()->user()->pendaftaran->p1 != null & auth()->user()->pendaftaran->p2 != null)
-=======
-    auth()->user()->pendaftaran->p1_id != null && auth()->user()->pendaftaran->p2_id != null)
->>>>>>> f2688384f4a0edc8a67917ebbfe9b1cdb39709f3
     <div class="d-flex justify-content-center mt-5">
         <div class="card w-50 border-0" style="background-color:#f5f5f5;">
             <div class="form-group row">
