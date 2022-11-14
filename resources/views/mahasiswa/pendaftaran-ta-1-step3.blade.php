@@ -17,7 +17,7 @@
             @endif
             @csrf
             <div class="col-md-12">
-                <label for="judul_ta1" class="form-label">Judul Proposal</label>
+                <label for="judul_ta1" class="form-label">Judul Penelitian</label>
                 @if($pendaftaran == null)
                 <input type="text" class="form-control error" name="judul_ta1" id="judul_ta1"
                     placeholder="Judul Penelitian">
@@ -28,7 +28,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-5">
-                    <label for="berkas_ta1" class="form-label">Berkas Proposal</label>
+                    <label for="berkas_ta1" class="form-label">Berkas Penelitian</label>
                     <input class="form-control" type="file" id="berkas_ta1" name="berkas_ta1">
                 </div>
             </div>

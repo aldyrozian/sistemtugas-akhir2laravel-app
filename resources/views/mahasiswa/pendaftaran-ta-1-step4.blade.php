@@ -13,7 +13,7 @@
         enctype="multipart/form-data">
         @csrf
         <div class="col-md-6 p-2">
-            <h6 style="text-align:center;">Pembimbing 1</h6>
+
             <label for="p1" class="form-label error">Nama Pembimbing 1</label>
             <select type="text" class="form-select" name="p1" id="p1">
                 <option disabled selected>Pilih.. </option>
@@ -32,7 +32,7 @@
 
         </div>
         <div class="col-md-6 p-2">
-            <h6 style="text-align:center;">Pembimbing 2</h6>
+
             <label for="p2" class="form-label">Nama Pembimbing 2</label>
             <select type="text" class="form-select" name="p2" id="p2">
                 <option disabled selected>Pilih.. </option>
